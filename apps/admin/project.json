@@ -1,5 +1,6 @@
 {
   "name": "admin",
+  "$schema": "/node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/admin",
   "projectType": "application",
   "targets": {
@@ -8,7 +9,7 @@
       "outputs": ["{options.outputPath}"],
       "options": {
         "root": "apps/admin",
-        "outputPath": "apps/admin/.next"
+        "outputPath": "apps/admin"
       }
     },
     "dev": {
